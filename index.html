@@ -10,12 +10,12 @@
       <div>
         <h1>Gioco Randomico</h1>
 
-        <button>Wishlist now!</button>
+        <button>Aggiungi Wishlist ORA!</button>
 
         
         <div>
           <p>Disponibile su:</p>
-          <img src="" alt=""><img src="" alt=""><img src="" alt="">
+          <img src="" alt="boh"><img src="" alt="boh"><img src="" alt="boh">
         </div>
 
       </div>
@@ -24,15 +24,26 @@
     <hr />
 
     <nav>
-      <button>presentazione del gioco</button>
-      <button>schede dei personaggi</button>
-      <button>requisiti di sistema</button>
-      <button>preordine</button>
-      <button>domande frequenti</button>
+      <button onclick="loadPage('presentazione.html')"      >presentazione del gioco</button>
+      <button onclick="loadPage('schede-personaggi.html')"  >schede dei personaggi</button>
+      <button onclick="loadPage('requisiti-sistema.html')"  >requisiti di sistema</button>
+      <button onclick="loadPage('preordine.html')"          >preordine</button>
+      <button onclick="loadPage('domande-frequenti.html')"  >domande frequenti</button>
     </nav>
 
     <hr />
 
-    <main></main>
+    <main>
+
+        <div id="containerContenuti">
+            <!-- Il contenuto viene inserito qui tramite JS (trucchetto imparato in Educazione civica con il mitico Proffesor Benati Lorenzo) -->
+        </div>
+        
+        <script src="js/index.js"></script>
+    </main>
+
+    <footer>
+      <p>© 2026 footerRandomico. Tutti i diritti riservati. <br>uuu frase legale ad effetto ohnoo!</p>
+    </footer>
   </body>
 </html>
