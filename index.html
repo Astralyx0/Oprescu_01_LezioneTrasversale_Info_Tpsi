@@ -4,31 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Presentazione del gioco</title>
+    <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <header>
-      <div>
-        <h1>Gioco Randomico</h1>
+    
+    <header >
+      <div class="banner"></div>
+        
+      <div class="head">
+          <h1 class="title">Gioco Randomico</h1>
 
-        <button>Aggiungi Wishlist ORA!</button>
+        <button class="cta-button">Aggiungi Wishlist ORA!</button>
 
         
-        <div>
+        <div class="platforms">
           <p>Disponibile su:</p>
-          <img src="" alt="boh"><img src="" alt="boh"><img src="" alt="boh">
+          <div class="platforms-list">
+            <img src="" alt="boh"><img src="" alt="boh"><img src="" alt="boh">
+          </div>
         </div>
-
       </div>
+      
     </header>
 
     <hr />
 
     <nav>
-      <button onclick="loadPage('presentazione.html')"      >presentazione del gioco</button>
-      <button onclick="loadPage('schedePersonaggi.html')"  >schede dei personaggi</button>
-      <button onclick="loadPage('requisitiDiSistema.html')"  >requisiti di sistema</button>
-      <button onclick="loadPage('preordine.html')"          >preordine</button>
-      <button onclick="loadPage('domandeFreq.html')"  >domande frequenti</button>
+      <button class="selected" data-page="presentazione.html" onclick="loadPage('presentazione.html')">presentazione del gioco</button>
+      <button data-page="schedePersonaggi.html" onclick="loadPage('schedePersonaggi.html')">schede dei personaggi</button>
+      <button data-page="requisitiDiSistema.html" onclick="loadPage('requisitiDiSistema.html')">requisiti di sistema</button>
+      <button data-page="preordine.html" onclick="loadPage('preordine.html')">preordine</button>
+      <button data-page="domandeFreq.html" onclick="loadPage('domandeFreq.html')">domande frequenti</button>
     </nav>
 
     <hr />

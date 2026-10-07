@@ -6,4 +6,10 @@ ideato dallo studente. Pagine suggerite: presentazione del gioco, schede dei
 personaggi, requisiti di sistema, preordine, domande frequenti.
 
 
-Elenco delle pagine
+Elenco delle pagine:
+
+    - domande frequenti
+    - preordine
+    - presentazione del gioco
+    - requisiti di sistema
+    - schede dei personaggi
